@@ -1,0 +1,165 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	padding-top: 65px;
+    background-color: #d5c8a1;
+    margin-bottom: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+.img-circle {
+    border-radius: 50%;
+}
+.text-home {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	text-transform: uppercase;
+	max-width: 1140px;
+	height: 269px;
+	padding: 145px 0 0px;
+}
+.logo {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.work {
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.portfolio {
+	padding: 65px;
+}
+
+.copyright {
+	float: left;
+	text-align: center;
+}
+
+.social-links {
+	float: right;
+	padding: 0 1em;
+	margin: 1em;
+}
+
+.footercontent {
+	color: #9d9d9d;
+	margin: 1em;
+	padding: 0.25em;
+}
+
+.fa {
+	font-size: 1.5em;
+	padding: 0.25em;
+}
+
+.bio {
+	text-align: left;
+	width: 60%;
+	line-height: 24px;
+	margin: auto;
+	padding: 80px 0;
+	font-size: 15px;
+}
+
+.skill {
+	margin: auto;
+	text-align: center;
+}
+
+.list {
+	text-align: center;
+	margin: auto;
+}
+
+.department {
+	background: #222;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 20px;
+	margin-left: 35px;
+	margin-top: 50px;
+}
+
+.check {
+	margin-left: 150px;
+}
+
+.contact {
+	color: #333;
+	margin: 0 auto;
+	padding: 145px 0 0;
+	text-align: center;
+	text-transform: uppercase;
+	max-width: 500px;
+
+}
+
+.social {
+	padding-bottom: 20px;
+	line-height: 1.6;
+}
+
+.stylish-panel {
+    padding: 20px 0;
+    text-align: center;
+}
+.stylish-panel > div > div{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+.stylish-panel > div:hover > div{
+    margin-top: -10px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    background: rgba(200, 200, 200, 0.1);
+    transition: 0.5s;
+}
+
+.stylish-panel > div:hover img {
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+h1 {
+	font-size: 4em;
+}
+h2 {
+	margin: 1.25em 1 0;
+}
+h3 {
+	line-height: 1em;
+}
+hr {
+	display: block;
+	width: 14em;
+	border-color: #302782;
+	background-color: #302782;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #222;
+
+}
+ul {
+	list-style-type: none;
+}
