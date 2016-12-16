@@ -3,3 +3,5 @@ markdown: kramdown
 paginate: 5
 paginate_path: Blog/page:num
 published: true
+baseurl: "/"
+url: http://nedu.github.io/NeduRobert
