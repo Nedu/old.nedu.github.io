@@ -2,3 +2,4 @@ permalink: /notes/:year/:month/:day/:title
 markdown: kramdown
 paginate: 5
 paginate_path: Blog/page:num
+published: true
