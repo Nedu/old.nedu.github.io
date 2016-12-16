@@ -11,8 +11,8 @@
     		    </div>
     		    <div class="collapse navbar-collapse" id="myNavbar" >
     			     <ul class="nav navbar-nav navbar-right">
-      				    <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-                  <li><a href="portfolio.html"><span class="glyphicon glyphicon-pencil"></span> Portfolio</a></li>
+      				    <li class="{{ page.home }}"><a href="/" title="Nedu Robert"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                  		    <li class="{{ page.portfolio }}" ><a href="/portfolio" title="Portfolio"><span class="glyphicon glyphicon-pencil"></span> Portfolio</a></li>
       			 <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="portfolio.html">Portfolio <span class="caret"></span></a>
         				    <ul class="dropdown-menu">
           					   <li><a href="#">Web Development</a></li>
@@ -20,8 +20,8 @@
           					   <li><a href="#">Web Design</a></li>
       	  				  </ul>
       				    </li> -->
-      				    <li><a href="about.html"><span class="glyphicon glyphicon-user"></span> About</a></li>
-      				    <li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+      				    <li class="{{ page.about }}"><a href="/about" title="Nedu Robert"><span class="glyphicon glyphicon-user"></span> About</a></li>
+      				    <li class="{{ page.contact }}"><a href="/contact" title="Contact"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
     			      </ul>
   			    </div>
   		    </div>
