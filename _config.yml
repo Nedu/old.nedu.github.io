@@ -1,7 +1,7 @@
-permalink: /notes/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
 paginate: 5
-paginate_path: Blog/page:num
+paginate_path: blog/page:num
 published: true
 baseurl: "/"
 url: http://nedu.github.io/NeduRobert
