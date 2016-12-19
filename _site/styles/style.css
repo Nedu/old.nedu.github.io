@@ -4,8 +4,8 @@ html {
 }
 body {
 	padding-top: 65px;
-    background-color: #d5c8a1;
-    margin-bottom: 60px;
+  background-color: #d5c8a1;
+  margin-bottom: 60px;
 }
 @media (max-width: 979px) {
   body {
