@@ -1,18 +1,45 @@
 ---
 layout: default
-title: Blog
 home: passive
 portfolio: passive
 about: passive
 contact: passive
 blog: active
 ---
-	
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+	<section  id="posts">
+      	{% for post in paginator.posts %}
+      	<article>
+      		<span class="date">{{ post.date | date_to_string }}</span>
+      		<h2><a class="post-link" href="{{ nedu.github.io }}{{ post.url }}">{{ post.title }}</a></h2>
+      		{{ post.content }}
+      	</article>
+      	{% endfor %}
+    	<div class="pagination">
+    		{% if paginator.total_pages > 1 %}
+			<div class="pagination">
+  				{% if paginator.previous_page %}
+    				<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  				{% else %}
+    				<span>&laquo; Prev</span>
+  				{% endif %}
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+  				{% for page in (1..paginator.total_pages) %}
+    				{% if page == paginator.page %}
+      					<em>{{ page }}</em>
+    				{% elsif page == 1 %}
+      					<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    				{% else %}
+      					<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    				{% endif %}
+  				{% endfor %}
+
+  				{% if paginator.next_page %}
+    				<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  				{% else %}
+    				<span>Next &raquo;</span>
+  				{% endif %}
+			</div>
+			{% endif %}
+    	</div>
+	</section>
 

@@ -163,3 +163,47 @@ footer {
 ul {
 	list-style-type: none;
 }
+#posts {
+	width: 75%;
+	max-width: 45em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+.post-link{
+	color: #333 !important;
+	padding-top: 0 !important;
+}
+#post {
+	width: 100%;
+	max-width: 45em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+
+@media (max-width: 979px) {
+	#posts {
+		padding-top: 70px;
+	}
+	#post {
+		padding-top: 70px;
+	}
+}
+.date {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #333;
+	padding-bottom: 0 !important;
+}
+article {
+	border-bottom: 1px dashed #302782;
+	margin-bottom: 2em;
+	padding-bottom: 0.75em;
+	display: block;
+}
+.pagination {
+	margin-bottom: 1em;
+	position: relative;
+	padding: 0.5em;
+}
