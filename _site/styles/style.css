@@ -41,7 +41,7 @@ img, embed, object, video {
 }
 
 .portfolio {
-	padding: 65px;
+	padding: 65px 0;
 }
 
 .copyright {
@@ -206,4 +206,7 @@ article {
 	margin-bottom: 1em;
 	position: relative;
 	padding: 0.5em;
+}
+.img-thumbnail {
+    border: 1px solid #825811;
 }
