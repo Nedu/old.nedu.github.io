@@ -145,6 +145,10 @@ h2 {
 h3 {
 	line-height: 1em;
 }
+hr {
+	border-color: #302782;
+	background-color: #302782;
+}
 #home {
 	display: block;
 	width: 14em;
