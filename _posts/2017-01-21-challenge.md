@@ -1,7 +1,5 @@
 ---
 layout: post
-title: "Challenge: 100 Websites in 100 Days"
-date: 2017-01-21
 ---
 
 # Hello!
@@ -12,4 +10,7 @@ date: 2017-01-21
 ### You can follow my progress here.
 ---
 Day 1: 
+
 Day 2:
+
+Day 3:
