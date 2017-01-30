@@ -11,7 +11,7 @@ date: 2017-01-21
 
 #### You can follow my progress here.
 ---
-Day 1: 
+Day 1: [Simple Portfolio Website](https://htmlpreview.github.io/?https://github.com/Nedu/Project-1/blob/master/index.html)
 
 Day 2:
 
