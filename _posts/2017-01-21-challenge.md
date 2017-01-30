@@ -6,10 +6,10 @@ date: 2017-01-21
 
 ## *Hello!*{: style="color: #0000a4"}
 
-### I will be creating 100 websites in 100 days.
+### I will be creating *100 websites in 100 days.*{: style="color: #0000a4"}
 
 
-### You can follow my progress here.
+#### You can follow my progress here.
 ---
 Day 1: 
 
