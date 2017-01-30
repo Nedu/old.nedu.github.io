@@ -145,7 +145,7 @@ h2 {
 h3 {
 	line-height: 1em;
 }
-hr {
+#home {
 	display: block;
 	width: 14em;
 	border-color: #302782;
@@ -210,3 +210,4 @@ article {
 .img-thumbnail {
     border: 1px solid #825811;
 }
+
