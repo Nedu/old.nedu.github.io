@@ -24,3 +24,5 @@ Day 5: [Color Guessing Game](https://htmlpreview.github.io/?https://github.com/N
 Day 6: [Photo Gallery](https://htmlpreview.github.io/?https://github.com/Nedu/Coursera/blob/master/Specializations/Web%20Design%20For%20Everybody/Interactivity%20with%20Javascript/Photo%20Gallery/index.html)  [(Source)](https://github.com/Nedu/Coursera/tree/master/Specializations/Web%20Design%20For%20Everybody/Interactivity%20with%20Javascript/Photo%20Gallery)
 
 Day 7: [Autocomplete Form](https://htmlpreview.github.io/?https://github.com/Nedu/Coursera/blob/master/Specializations/Web%20Design%20For%20Everybody/Interactivity%20with%20Javascript/Autocomplete/index.html) [(Source)](https://github.com/Nedu/Coursera/tree/master/Specializations/Web%20Design%20For%20Everybody/Interactivity%20with%20Javascript/Autocomplete)
+
+Day 8: [Javascript Drum Kit](https://htmlpreview.github.io/?https://github.com/Nedu/Javascript30Challenge/blob/master/Javascript%20Drum%20Kit/index.html) [(Source)](https://github.com/Nedu/Javascript30Challenge/tree/master/Javascript%20Drum%20Kit)
