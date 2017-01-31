@@ -20,3 +20,7 @@ Day 3: [The Solar's Diner](https://htmlpreview.github.io/?https://github.com/Ned
 Day 4: [Dating Website Form](https://htmlpreview.github.io/?https://github.com/Nedu/Coursera/blob/master/Specializations/Full%20Stack%20Web%20Development/HTML-%20CSS%20and%20Javascript/Dating%20Website/index3.html)  [(Source)](https://github.com/Nedu/Coursera/tree/master/Specializations/Full%20Stack%20Web%20Development/HTML-%20CSS%20and%20Javascript/Dating%20Website)
 
 Day 5: [Color Guessing Game](https://htmlpreview.github.io/?https://github.com/Nedu/Coursera/blob/master/Specializations/Full%20Stack%20Web%20Development/HTML-%20CSS%20and%20Javascript/Color%20Guessing%20Game/index2.html)  [(Source)](https://github.com/Nedu/Coursera/tree/master/Specializations/Full%20Stack%20Web%20Development/HTML-%20CSS%20and%20Javascript/Color%20Guessing%20Game)
+
+Day 6: [Photo Gallery](https://htmlpreview.github.io/?https://github.com/Nedu/Coursera/blob/master/Specializations/Web%20Design%20For%20Everybody/Interactivity%20with%20Javascript/Photo%20Gallery/index.html)  [(Source)](https://github.com/Nedu/Coursera/tree/master/Specializations/Web%20Design%20For%20Everybody/Interactivity%20with%20Javascript/Photo%20Gallery)
+
+Day 7: [Autocomplete Form](https://htmlpreview.github.io/?https://github.com/Nedu/Coursera/blob/master/Specializations/Web%20Design%20For%20Everybody/Interactivity%20with%20Javascript/Autocomplete/index.html) [(Source)](https://github.com/Nedu/Coursera/tree/master/Specializations/Web%20Design%20For%20Everybody/Interactivity%20with%20Javascript/Autocomplete)
