@@ -109,6 +109,10 @@ img, embed, object, video {
 	line-height: 1.6;
 }
 
+.social a {
+	text-decoration: none;
+}
+
 .stylish-panel {
     padding: 20px 0;
     text-align: center;
