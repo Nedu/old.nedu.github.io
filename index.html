@@ -5,66 +5,218 @@
 	    <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <link href="https://fonts.googleapis.com/css?family=Lato:300,900&amp;subset=latin-ext" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet"> 
+	     <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet"> 
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	    <link rel="stylesheet" type="text/css" href= "styles/style.css">
 	</head>	
 		
 	<body>
-	<div class="container">	
 		<header>
-	    	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	    	<nav class="navbar navbar-inverse navbar-fixed-top">
 			    <div class="container">
 				    <div class="navbar-header logo">
-					     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+					     	 <span class="sr-only">Toggle navigation</span>
 		    			     <span class="icon-bar"></span>
 		    			     <span class="icon-bar"></span>
 		    			     <span class="icon-bar"></span>
 		  			   </button>
-		  			   <a class="navbar-left" href="/"><img class="img-circle img-responsive logo" src="images/logo.gif" alt="logo" width="70px" height="500px" max-width: 100%; /></a>
+		  			   <a class="navbar-brand" href="#intro" title="Nedu Robert"><span>&lt;NR&gt;</span></a>
 				    </div>
 				    <div class="collapse navbar-collapse" id="myNavbar" >
-					    <ul class="nav navbar-nav navbar-right">
-		  				    <li><a href="/" title="Nedu Robert"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-		              		<li><a href="portfolio.html" title="Portfolio"><span class="glyphicon glyphicon-pencil"></span> Portfolio</a></li>
-		  			 		<!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="portfolio.html">Portfolio <span class="caret"></span></a>
-		    				    <ul class="dropdown-menu">
-		      					   <li><a href="#">Web Development</a></li>
-		      					   <li><a href="#">Writing</a></li>
-		      					   <li><a href="#">Web Design</a></li>
-		  	  				  </ul>
-		  				    </li> -->
-		  				    <li><a href="about.html" title="Nedu Robert"><span class="glyphicon glyphicon-user"></span> About</a></li>
-		  				    <li><a href="contact.html" title="Contact"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
-					    	<li><a href="http://nedu.github.io/blog" title="Blog"><span class="glyphicon glyphicon-book"></span> Blog</a></li>
+					    <ul class="nav navbar-nav">
+		              		<li><a href="#webdev" title="Web Development Portfolio"><i class="fa fa-laptop" aria-hidden="true"></i> Web Development</a></li>
+		  				    <li><a href="#datasci" title="Data Science Portfolio"><i class="fa fa-database" aria-hidden="true"></i> Data Science</a></li>
+		  				</ul>
+		  				<ul class="nav navbar-nav navbar-right">
+		  				    <li><a href="#contact" title="Contact"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a></li>
+					    	<li><a href="http://nedu.github.io/blog" title="Blog"><i class="fa fa-book" aria-hidden="true"></i> Blog</a></li>
 					    </ul>
 					</div>
 				</div>
 	      	</nav>
 	    </header>
-    
-		<div class="text-home">
-			<h1>Nedu Robert</h1>
-	      	<hr id="home">
-	      	<h2>Full Stack Developer</h2>
+
+	    <div class="container intro-sec">	
+		    <!-- Intro section -->
+	    	<section class="row intro" id="intro">
+				<div class="text-intro col-xs-12">
+					<h1>Nedu Robert</h1>
+			      	<hr>
+			      	<h2>Full Stack Developer</h2>
+				</div>
+				<div class="intro-nav">
+					<a href="#webdev"><i class="fa fa-chevron-down fa-3x"></i></a>
+				</div>
+			</section>
+			<!-- / -->
+			<!-- Web Development section -->
+			<section class="container-fluid webdev" id="webdev">
+				<div class="row">
+					<a href="#tribute" data-toggle="modal"><img class="col-md-4" src="images/tribute.png" alt="tribute webpage screenshot"></a>
+					<a href="#imggallery" data-toggle="modal"><img class="col-md-4" src="images/imggallery.png" alt="image gallery screenshot"></a>
+					<a href="#landingpage" data-toggle="modal"><img class="col-md-4 padlayout" src="images/landingpage.png" alt="landing page screenshot"></a>
+				</div>
+				<div class="row">
+					<a href="#comingsoon" data-toggle="modal"><img class="col-md-4" src="images/comingsoon.png" alt="coming soon webpage screenshot"></a>
+					<a href="#comingsoon" data-toggle="modal"><img class="col-md-4" src="images/comingsoon.png" alt="coming soon webpage screenshot"></a>
+					<a href="#comingsoon" data-toggle="modal"><img class="col-md-4 padlayout" src="images/comingsoon.png" alt="coming soon webpage screenshot"></a>
+				</div>
+			</section>
+	    	<!-- / -->
+	    	<!-- Data Science section -->
+			<section class="container-fluid datasci" id="datasci">
+				<div class="row">
+					<a href="#comingsoon" data-toggle="modal"><img class="col-md-4" src="images/comingsoon.png" alt="coming soon webpage screenshot"></a>
+					<a href="#comingsoon" data-toggle="modal"><img class="col-md-4" src="images/comingsoon.png" alt="coming soon webpage screenshot"></a>
+					<a href="#comingsoon" data-toggle="modal"><img class="col-md-4 padlayout" src="images/comingsoon.png" alt="coming soon webpage screenshot"></a>
+				</div>
+				<div class="row">
+					<a href="#comingsoon" data-toggle="modal"><img class="col-md-4" src="images/comingsoon.png" alt="coming soon webpage screenshot"></a>
+					<a href="#comingsoon" data-toggle="modal"><img class="col-md-4" src="images/comingsoon.png" alt="coming soon webpage screenshot"></a>
+					<a href="#comingsoon" data-toggle="modal"><img class="col-md-4 padlayout" src="images/comingsoon.png" alt="coming soon webpage screenshot"></a>
+				</div>
+			</section>
+	    	<!-- / -->
+	    	<!-- Contact Section -->
+	    	<section class="container-fluid contact" id="contact">
+	    		<div class="container">
+	    			<h1>Get in touch!</h1>
+					<form action="mailto:nedumrobert@gmail.com" method="get" enctype="text/plain">
+					    <div class="col-md-6">
+				  			<div class="form-group">
+				  				<label for="name">Your name:</label>
+						    	<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="name" id="name"  placeholder="Enter Your Name"/>
+								</div>
+					  		</div>
+					  		<div class="form-group">
+						    	<label for="email">Email Address</label>
+						    	<div class="input-group">
+						    		<span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+						    		<input type="email" class="form-control" id="email" placeholder=" Enter Email">
+						    	</div>
+						  	</div>	
+						  	<div class="form-group">
+						    	<label for="telephone">Phone No.</label>
+						    	<div class="input-group">
+						    		<span class="input-group-addon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+						    		<input type="tel" class="form-control" id="telephone" placeholder=" Enter Your Phone No.">
+						    	</div>
+				  			</div>
+				  		</div>
+				  		<div class="col-md-6">
+				  			<div class="form-group">
+				  				<label for ="description"> Message</label>
+				  			 	<textarea  class="form-control" id="description" placeholder="Enter Your Message" rows="6"></textarea>
+				  			</div>
+				  			<div>
+				  				<button type="button" class="btn btn-default"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
+				  			</div>		
+						</div>
+					</form>
+					<div class="container">
+						<h2>Find me online:</h2>
+						<div class="social-links">
+					        <a href="https://www.linkedin.com/in/nedurobert" target="_blank">
+					          <i class="fa fa-linkedin"> </i>
+					        </a>
+					        <a href="https://www.github.com/nedu" target="_blank">
+					          <i class="fa fa-github"> </i>
+					        </a>
+					        <a href="http://codepen.io/Nedu/" target="_blank">
+		          				<i class="fa fa-codepen" aria-hidden="true"> </i>
+		        			</a>
+					        <a href="https://www.freecodecamp.com/nedu" target="_blank">
+					          <i class="fa fa-free-code-camp" aria-hidden="true"> </i>
+					        </a>
+			      		</div>
+			      	</div>
+				</div>
+	    	</section>
+	    	<!-- / -->
 		</div>
-	    
-	    <footer class="footer" role="contentinfo">
-	      <div class="copyright">
-	        <p class="footercontent"> © 2017 Nedu Robert </p>
-	      </div>
-	      <div class="social-links">
-	        <a href="https://www.linkedin.com/in/nedurobert" target="_blank">
-	          <i class="fa fa-linkedin"> </i>
-	        </a>
-	        <a href="https://www.github.com/nedu" target="_blank">
-	          <i class="fa fa-github"> </i>
-	        </a>
-	      </div>
-		</footer>
-	</div>
+		<!-- Modal for Tribute Project -->
+		<div class="modal fade" id="tribute" role="dialog">
+		    <div class="modal-dialog">
+		        <!-- Modal content -->
+		    	<div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			          <h3>Responsive Website</h3>
+			          <p>Simple single page reponsive tribute website to Superman</p>
+			          <p><span class="skilltag">HTML5</span><span class="skilltag">CSS3</span><span class="skilltag">Bootstrap 4</span><span class="skilltag">Responsive Design</span></p>
+			          <div class="modallinks">
+			          <a class="btn btn-primary" href ="https://github.com/Nedu/Tribute-Page" target="_blank">GitHub</a>
+			          <a class="btn btn-primary" href="https://nedu.github.io/Tribute-Page/" target="_blank">View Live</a>
+			          </div>
+			        </div>
+		        </div>
+		    </div>
+		</div>
+		<!-- / -->
+		<!-- Modal for Image Gallery Project -->
+		<div class="modal fade" id="imggallery" role="dialog">
+		    <div class="modal-dialog">
+		        <!-- Modal content -->
+		    	<div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			          <h3>Image Gallery</h3>
+			          <p>Simple image gallery</p>
+			          <p><span class="skilltag">HTML5</span><span class="skilltag">CSS3</span><span class="skilltag">Responsive Design</span></p>
+			          <div class="modallinks">
+			          <a class="btn btn-primary" href ="https://github.com/Nedu/ImageGallery" target="_blank">GitHub</a>
+			          <a class="btn btn-primary" href="https://nedu.github.io/ImageGallery/" target="_blank">View Live</a>
+			          </div>
+			        </div>
+		        </div>
+		    </div>
+		</div>
+		<!-- / -->
+		<!-- Modal for Landing Page Project -->
+		<div class="modal fade" id="landingpage" role="dialog">
+		    <div class="modal-dialog">
+		        <!-- Modal content -->
+		    	<div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			          <h3>Landing Page</h3>
+			          <p>Simple landing page</p>
+			          <p><span class="skilltag">HTML5</span><span class="skilltag">CSS3</span><span class="skilltag">Responsive Design</span><span class="skilltag">Bootstrap 3</span></p>
+			          <div class="modallinks">
+			          <a class="btn btn-primary" href ="https://github.com/Nedu/ImageGallery" target="_blank">GitHub</a>
+			          <a class="btn btn-primary" href="https://nedu.github.io/ImageGallery/" target="_blank">View Live</a>
+			          </div>
+			        </div>
+		        </div>
+		    </div>
+		</div>
+		<!-- / -->
+		<!-- Modal for Coming Soon Project -->
+		<div class="modal fade" id="comingsoon" role="dialog">
+		    <div class="modal-dialog">
+		        <!-- Modal content -->
+		    	<div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			          <h3>Coming Soon</h3>
+			         <!--  <p>Simple landing page</p>
+			          <p><span class="skilltag">HTML5</span><span class="skilltag">CSS3</span><span class="skilltag">Responsive Design</span><span class="skilltag">Bootstrap 3</span></p>
+			          <div class="modallinks">
+			          <a class="btn btn-primary" href ="https://github.com/Nedu/ImageGallery" target="_blank">GitHub</a>
+			          <a class="btn btn-primary" href="https://nedu.github.io/ImageGallery/" target="_blank">View Live</a>
+			          </div> -->
+			        </div>
+		        </div>
+		    </div>
+		</div>
+		<!-- / -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="scripts/nedu.js"></script>
 	</body>
 </html>
