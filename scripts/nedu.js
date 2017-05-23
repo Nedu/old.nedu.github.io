@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var scroll_start = 0;
-  var startchange = $('#webdev');
+  var startchange = $('#intro');
   var offset = startchange.offset();
   if (startchange.length){
     $(document).scroll(function() {
