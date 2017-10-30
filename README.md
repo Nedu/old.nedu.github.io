@@ -1,16 +1,16 @@
 # Nedu Robert
 
-#### [nedu.github.io] (nedu.github.io)
+#### [nedu.github.io/](https://nedu.github.io/)
 
 Feel free to contact me if you have any questions. My contact information can be found at the contact section of my website.
 
 #### About Myself
 
-I am a full stack developer with a wide range of skills that includes web design, front-end development, back-end development, linux, mac and windows server system administration, deployment and performance tuning. 
+I am a full-stack developer dedicated to acquiring the best web practices. With a strong foundation on being self-sufficient in my learning, I have built a variety of web applications using HTML5, CSS3, Javascript, NodeJs, Express, MongoDB and React.js. I have a solid understanding in working with front-end APIs. With this knowledge I have built dynamic web applications such as a blog platform app and Wikipedia viewer. I am also adept in responsive web design. My portfolio page utilizes the Bootstrap framework to create a web experience that has a functional user interface and also looks good across all devices.
 
 #### My Recent Projects
 
-I am most familiar working with Python, PHP and mongoDB in the back end, and HTML5, CSS3, Javascript and AngularJS in the front end. Some other frameworks and libraries that I use include Bootstrap, MeteorJS, Flask and jQuery. I also use Github for version control, Heroku for app deployment in a cloud platform, and stylesheet preprocessors such as Sass and LESS. I'm currently working on a personal project where I am creating 100 websites in 100 days as a way to showcase my skills and abilities. 
+I am most familiar working with NodeJs, Express and mongoDB in the back end, and HTML5, CSS3, Javascript and React.js in the front end. Some other frameworks and libraries that I use include Bootstrap, MeteorJS, Flask and jQuery. I also use Github for version control, Heroku for app deployment in a cloud platform, and stylesheet preprocessors such as Sass and LESS. I'm currently working on a personal project where I am creating 100 web apps as a way to showcase my skills and abilities. 
 
 #### What I'm looking for
 
