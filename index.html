@@ -95,20 +95,20 @@
 	    	<section class="container-fluid contact" id="contact">
 	    		<div class="container">
 	    			<h1>Get in touch!</h1>
-					<form action="mailto:nedumrobert@gmail.com" method="get" enctype="text/plain">
-					    <div class="col-md-6">
-				  			<div class="form-group">
-				  				<label for="name">Your name:</label>
-						    	<div class="input-group">
+					<form action="https://formspree.io/nedumrobert@gmail.com" method="get" enctype="text/plain">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="name">Your name:</label>
+								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
 									<input type="text" class="form-control" name="name" id="name"  placeholder="Enter Your Name"/>
 								</div>
-					  		</div>
+							</div>
 					  		<div class="form-group">
 						    	<label for="email">Email Address</label>
 						    	<div class="input-group">
 						    		<span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-						    		<input type="email" class="form-control" id="email" placeholder=" Enter Email">
+						    		<input type="email" class="form-control" id="email" placeholder=" Enter Email" name="_replyto">
 						    	</div>
 						  	</div>	
 						  	<div class="form-group">
@@ -125,7 +125,7 @@
 				  			 	<textarea  class="form-control" id="description" placeholder="Enter Your Message" rows="6"></textarea>
 				  			</div>
 				  			<div>
-				  				<button type="button" class="btn btn-default"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
+				  				<button type="submit" class="btn btn-default"><i class="fa fa-paper-plane" aria-hidden="true" value="send"></i>  Send Message</button>
 				  			</div>		
 						</div>
 					</form>
