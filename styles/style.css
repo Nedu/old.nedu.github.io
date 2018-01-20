@@ -227,9 +227,8 @@ hr:before {
 	border: 2px solid #404C58;
 	background-color: #404C58;
 	color: #f3ecdf;
-	padding: 3px;
+	padding: 2%;
 	font-weight: bold;
-	font-size: 1.3em;
 	margin: 5px;
     border-radius:10px 10px 10px 10px;
 }
