@@ -74,7 +74,6 @@ header .fa {
 .intro {
 	background: linear-gradient(rgba(3, 30, 73, .7), rgba(3, 30, 73, .7)), url('../images/intro.jpeg') no-repeat center;
 	background-size: cover;
-	height: 100%;
 }
 
 .intro h2 {
@@ -86,7 +85,7 @@ header .fa {
 	text-align: center;
 	margin: 0 auto;
 	text-transform: uppercase;
-	padding: 250px 0 0px;
+	padding: 19% 0 0;
 	color: #FFF;
 	vertical-align: middle;
 }
@@ -166,7 +165,7 @@ hr:before {
 }
 
 .webdev, .datasci, .contact {
-	width: 100.4%;
+	width: 100vw;
 	overflow: hidden;
 	padding-left: 0;
 	padding-right: 0;
@@ -320,3 +319,12 @@ hr:before {
 	}
 }
 
+@media (max-width: 400px) { 
+	.intro h2 {
+		font-size: 2em;
+	}
+
+	.text-intro {
+		font-size: 0.9em;
+	}
+}
