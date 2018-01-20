@@ -102,7 +102,7 @@ header .fa {
 }
 
 .intro-nav .fa {
-	padding: 5.25em;
+	padding: 5%;
 }
 
 @-webkit-keyframes bounce {
@@ -168,11 +168,15 @@ hr:before {
 .webdev, .datasci, .contact {
 	width: 100.4%;
 	overflow: hidden;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .webdev .row, .datasci .row{
 	margin-bottom: 5em;
 	padding: 10px 0 45px 0;
+	margin-right: 0;
+	margin-left: 0;
 }
 
 .webdev .row:first-child, .datasci .row:first-child{
@@ -315,3 +319,4 @@ hr:before {
 		border-right: 1px solid #262e35;
 	}
 }
+
